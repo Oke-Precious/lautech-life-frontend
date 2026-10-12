@@ -1,0 +1,7 @@
+{
+  "name": "LAUTECH LIFE",
+  "description": "Your Campus. Your Story. Your Life. Lightweight browser-based 3D university-life simulation inspired by student life around LAUTECH and Ogbomoso, Nigeria.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,8 +1,8 @@
 # LAUTECH Life — Product Specification
 
-Status: Phase 0 product specification with Phase 1 architecture update  
+Status: Phase 0 product specification with Phase 1A frontend foundation implementation update  
 Version: 0.2  
-Updated: 9 October 2026  
+Updated: 12 October 2026  
 Project name: Working name; subject to branding/legal review
 
 This document is the source of truth for development.
@@ -11,7 +11,7 @@ The confirmed architecture uses Supabase PostgreSQL and Supabase Auth, with Node
 
 This revision supersedes the previous MongoDB/separately hosted PostgreSQL alternatives and custom authentication proposal.
 
-Phase 1 covers architectural documentation and environment-variable examples only. It does not create database tables, configure authentication, provision infrastructure, or implement application code.
+Phase 1A authorizes the initial frontend foundation (React, Vite, JavaScript, CSS, and landing page setup). It does not create database tables, configure authentication, provision backend infrastructure, or implement 3D gameplay code. Backend responsibilities remain separated in lautech-life-backend.
 
 “Must” indicates a requirement. “Proposed” indicates a decision requiring validation. Prices, schedules, distances, rewards, programmes, and geography are fictional design proposals unless explicitly researched and confirmed.
 
@@ -825,7 +825,7 @@ V0.1 is ready for a closed playtest when:
 18. Rights, independence, age, conduct, and privacy notices are present.
 19. No unresolved critical security, data-loss, onboarding-blocking, or severe moderation defect remains.
 
-Phase 1 completion means updated architecture and environment examples only.
+Phase 1A completion encompasses the approved frontend project setup, architecture scaffolding, and landing page. Phase 1 backend and database provisioning remain documentation and environment examples only.
 
 V0.1 completion does not authorize public commercial launch.
 
